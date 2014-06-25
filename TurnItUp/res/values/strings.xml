@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Android prefilled strings -->
+    <string name="app_name">TurnItUpBeta</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings for the home screen -->
+    <string name="odo_message">Help us get to 1,000,000 minutes</string>
+    <string name="need2_message"><a href="http://turnitup.ca/">Learn more about the Turn It Up Campaign at our website</a></string>
+    <string name="tiu_button">Turn It Up</string>
+    <string name="youthspace_button">Youthspace Services</string>
+
+    <!-- Strings for Youthspace Services screen -->
+    <string name="ys_header">Are you Looking to Talk?</string>
+    <string name="chat_button">Chat With Someone</string>
+    <string name="forum_button">Youthspace Forums</string>
+    <string name="phone_directory_button">Crisis Line Directory</string>
+
+    <!-- Strings for MoN Event screen -->
+    <string name="cancel_button">Cancel Event</string>
+    <string name="leave_button">Leave Event</string>
+    <string name="sound_1">1</string>
+    <string name="sound_2">2</string>
+    <string name="sound_3">3</string>
+    <string name="sound_4">4</string>
+    <string name="sound_5">5</string>
+    <string name="sound_off">OFF</string>
+    <string name="alert_title"></string>
+    <string name="alert_positive">Yes</string>
+    <string name="alert_negative">No</string>
+
+    <!-- Strings for About screen -->
+    <string name="top_message">About the Application</string>
+    <string name="about_body">The Turn It Up Application allows youth to team up and make some noise
+        to show their support for the Turn It Up campaign! Create your own events or join one that\'s already
+        been created. Use your voice to make noise, or try out our Noise Generator!</string>
+    <string name="checkout_link">Watch the campaign video on the website by clicking the logo!</string>
+
+    <!-- Strings for TurnItUp Activity -->
+    <string name="create_mon">Create Event</string>
+    <string name="join_mon">Join Event</string>
+    <string name="event_start">Your event will start at:</string>
+
+    <!-- Strings for CreateMinuteOfNoise Activity -->
+    <string name="create_event_text">Create a Minute of Noise</string>
+    <string name="event_name">Nickname For Event</string>
+    <string name="initiator_email">Email Address (Optional)</string>
+    <string name="finish_config">Finished</string>
+    <string name="pick_time">Set a Time</string>
+    
+     <!-- Strings for Donate Activity -->
+    <string name="donate">Donate</string>
+    <string name="text_donate">Text NOISE to 45678 to donate $5 </string>
+    <string name="custom_donate">Donate a different amount</string>
+   	<string name="donate_desc">NEED2 is funded primarily by donations, and each one makes a difference. If you\'d like to donate you can do so through Canada Helps.</string>
+   
+    <!-- Strings for Activity labels -->
+    <string name="tiu_activity">Turn It Up!</string>
+    <string name="youthspace_activity">Youthspace Services</string>
+    <string name="phone_directory_activity">Crisis Line Directory</string>
+    <string name="noise_activity">Make Some Noise!</string>
+    <string name="social_media_activity">Tell Your Friends!</string>
+    <string name="firstname_hint">Firstname (optional)</string>
+    <string name="lastname_hint">Lastname (optional)</string>
+    <string name="email_hint">Email</string>
+    <string name="title_activity_donate">Donate</string>
+    <string name="title_activity_about">About</string>
+    <string name="later">Later</string>
+    <string name="pledge">Pledge</string>
+    <string name="pledge_msg">We have minutes of silence for those who\'ve passed on. 
+        Help us make 1 million Minutes of Noise for those still here and let them know we care.
+         \n\nHope Has a Sound - it\'s the sound you make when you say \"I Care\" 
+         \n\nLet\'s break the silence around youth suicide. 
+         \n\nPledging to be a noise maker means you support the TURN IT UP campaign. 
+        You will not be silent. We won\'t be silent either and we\'ll keep you up to date on upcoming events! </string>
+    <string name="noise_button">Make Noise Now!</string>
+    <string name="home_welcome_msg">Welcome to the Turn It Up application! \n</string>
+    <string name="home_tiu_msg">Press the Turn It Up button to go create/join events with others.</string>
+    <string name="home_noise_msg">Press the Make Noise Now! button to start up the Noise Generator.</string>
+    <string name="home_ys_msg">Press the Youthspace Services button if you\'re looking for some help and support.</string>
+    <string name="ok_button">OK</string>
+    <string name="checkBox1">Do not show again.</string>
+    <string name="setting_pledge">Noise Maker Pledge</string>
+    <string name="setting_pledgedetail">Contact us to unsubscribe.</string>
+    <string name="offline_msg">The following features require that you be connected to the Internet. \nPlease check your network setting.</string>
+    
+
+</resources>

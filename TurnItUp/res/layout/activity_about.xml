@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.need2.turnitup.beta.AboutActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp" >
+
+        <TextView
+            android:id="@+id/top_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/top_message"
+            android:textColor="#E6D41D49"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="40dp" >
+
+        <TextView
+            android:id="@+id/about_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|top"
+            android:paddingBottom="15dp"
+            android:text="@string/about_body"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/about_need2"
+            android:layout_width="200dp"
+            android:layout_height="86dp"
+            android:layout_gravity="center"
+            android:contentDescription="turnitup_logo"
+            android:gravity="center_horizontal|top"
+            android:scaleType="fitCenter"
+            android:src="@drawable/need2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/checkout_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|top"
+            android:text="@string/checkout_link"
+            android:textColor="#2388DB"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/about_tiu_logo"
+            android:layout_width="104dp"
+            android:layout_height="137dp"
+            android:layout_gravity="center"
+            android:contentDescription="turnitup_logo"
+            android:gravity="center_horizontal|top"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tiu_logo" />
+    </LinearLayout>
+
+</LinearLayout>

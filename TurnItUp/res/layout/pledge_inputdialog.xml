@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/pledge_message"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="2"
+        android:gravity="top|fill_horizontal"
+        android:scrollbars="vertical"
+        android:text="@string/pledge_msg"
+        android:textColor="#3E3E3E"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/firstname_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/firstname_hint"
+        android:inputType="textCapWords|textPersonName"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/lastname_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/lastname_hint"
+        android:inputType="textCapWords|textPersonName"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/email_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_later"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.5"
+            android:text="@string/later" />
+
+        <Button
+            android:id="@+id/btn_pledge"
+            android:layout_width="144dp"
+            android:layout_height="61dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.5"
+            android:text="@string/pledge" />
+
+    </LinearLayout>
+
+</LinearLayout>

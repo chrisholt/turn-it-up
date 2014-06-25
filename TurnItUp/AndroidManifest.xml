@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.need2.turnitup.beta"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:name="com.need2.turnitup.beta.TIUApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/tiu_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.need2.turnitup.beta.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- configChanges attribute prevents Activity from restarting on orientation change -->
+        <activity
+            android:name="com.need2.turnitup.beta.TurnItUpActivity"
+            android:label="@string/tiu_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.need2.turnitup.beta.YouthspaceServicesActivity"
+            android:label="@string/youthspace_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.need2.turnitup.beta.MinuteOfNoiseActivity"
+            android:label="@string/noise_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.need2.turnitup.beta.CreateMinuteOfNoiseActivity"
+            android:label="@string/noise_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.need2.turnitup.beta.SocialMediaActivity"
+            android:label="@string/social_media_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- AlarmManager Activity for event start -->
+        <activity
+            android:name="com.need2.turnitup.beta.DialogOfEventStartActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.need2.turnitup.beta.DonateActivity"
+            android:label="@string/title_activity_donate"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.need2.turnitup.beta.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver android:name="com.need2.turnitup.beta.EventAlarmReciever" >
+        </receiver>
+
+        <service android:name="com.need2.turnitup.beta.CountdownMoNService" >
+        </service>
+        
+        <activity
+            android:name="com.need2.turnitup.beta.SettingsFragment"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.need2.turnitup.beta.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

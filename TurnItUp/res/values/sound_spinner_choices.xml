@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sound_array">
+        <item>Drums</item>
+        <item>Heavy Bass</item>
+        <item>Voices</item>
+        <item>Random Noise</item>
+    </string-array>
+</resources>

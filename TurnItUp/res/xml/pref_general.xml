@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" >
+    
+    <Preference 
+        android:key="setting_pledge"
+        android:layout="@layout/setting_pledge" >
+    </Preference>
+
+</PreferenceScreen>
