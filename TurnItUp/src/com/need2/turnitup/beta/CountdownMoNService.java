@@ -158,7 +158,7 @@ public class CountdownMoNService extends Service {
 
 		// increment global mon count
 		ParseQuery<ParseObject> globalQuery = ParseQuery.getQuery("MoN_Count");
-		globalQuery.getInBackground("otKBW070tE",
+		globalQuery.getInBackground("EkYWtbYCt9",
 				new GetCallback<ParseObject>() {
 					public void done(ParseObject counter, ParseException e) {
 						if (e == null) {
